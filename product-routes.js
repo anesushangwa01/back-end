@@ -2,6 +2,11 @@ const express = require('express');
 const bakeryRouter = express.Router();
 const BakeryEntryModel = require('./model');
 
+
+
+
+
+
 // GET all bakery entries
 bakeryRouter.get("/", async (req, res) => {
     try {
