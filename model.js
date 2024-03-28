@@ -7,6 +7,7 @@ const ProductEntry = new mongoose.Schema({
     img: { type: String},
     types: { type: String, required: true },
     productname: { type: String, required: true },
+    refnumber: {type : String,required:true},  //ref number is used to
     packedDate: { type: Date, required: true },
     expdate: { type: Date, required: true }
 });
