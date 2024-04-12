@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
-
+// mongodb+srv://shangwa01:0734611236@cluster0.r52paqm.mongodb.net
 const connectDB = async () => {
   try {
-    await mongoose.connect('mongodb+srv://shangwa01:0734611236@cluster0.r52paqm.mongodb.net/expire', {
+    await mongoose.connect('mongodb+srv://shangwa01:0734611236@cluster0.r52paqm.mongodb.net', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
